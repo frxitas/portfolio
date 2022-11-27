@@ -34,8 +34,7 @@ const globalStyles = css`
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		color: #000;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		min-height: 100%;
 		text-rendering: optimizelegibility;
 		width: 100%;

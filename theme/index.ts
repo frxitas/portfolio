@@ -151,7 +151,7 @@ const theme = {
 };
 
 const themeKeyMap = {
-  borderRadius: "border-radius",
+  borderRadius: "borderRadius",
   colors: "color",
   fonts: "font",
   fontSizes: "fontSize",

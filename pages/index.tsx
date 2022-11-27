@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 
 /** COMPONENTS */
 import { Competencies } from "../components/Competencies";
@@ -11,6 +12,9 @@ import { Projects } from "../components/Projects";
 const Home: NextPage = () => {
 	return (
 		<>
+			<Head>
+				<title>Portfolio | By Guilherme Freitas</title>
+			</Head>
 			<Header />
 			<Introduction />
 			<Competencies />

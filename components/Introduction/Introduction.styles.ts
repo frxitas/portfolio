@@ -14,13 +14,14 @@ export const Introduction = styled.div`
 export const IntroductionContent = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	width: 60%;
-	height: 70%;
-	padding: 20px;
+	justify-content: left;
+	width: 70%;
+	height: 90%;
+	padding: 32px;
 	margin: 10px 0px;
 	box-shadow: 0px 0px 10px lightgrey;
 	border-radius: 10px;
+	background-color: white;
 `;
 
 export const IntroductionHeading = styled.div`
@@ -46,3 +47,11 @@ export const IntroductionImage = styled.div`
 	width: 100px;
 	height: 100px;
 `;
+
+export const IntroductionDescription = styled.div`
+	width: 350px;
+	height: 200px;
+	display: flex;
+	justify-content: left;
+	font-size: 16px;
+`

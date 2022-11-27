@@ -6,15 +6,30 @@ export const Header = styled.div`
 	align-items: center;
 	width: 100%;
 	height: 60px;
+	background-color: var(--color-primary-700);
 `;
 
 export const HeaderContent = styled.div`
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	width: 60%;
+	width: 65%;
   height: 100%;
-	background-color: #006dff;
 	color: white;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 6px 6px;
 `;
+
+export const HeaderTitle = styled.div`
+	font-size: 16px;
+`
+
+export const HeaderLinks = styled.div`
+	display: flex;
+	align-items: center;
+	width: fit-content;
+	height: fit-content;
+	background-color: white;
+	gap: 8px;
+	padding: 6px;
+	border-radius: 6px;
+`
