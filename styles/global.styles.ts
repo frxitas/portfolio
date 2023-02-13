@@ -34,6 +34,7 @@ const globalStyles = css`
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		color: #000;
+		background-color: #202627;
 		font-family: 'Montserrat', sans-serif;
 		min-height: 100%;
 		text-rendering: optimizelegibility;

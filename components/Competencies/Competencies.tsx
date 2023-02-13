@@ -6,9 +6,9 @@ import * as Styles from "./Competencies.styles";
 
 const Competencies = () => {
 	return (
-		<Container>
+		// <Container>
 			<Styles.Competencies>
-				<Styles.Title>Competencies</Styles.Title>
+				<Styles.Title>Hard skills</Styles.Title>
 				<Styles.Content>
 					<Styles.JS>JS</Styles.JS>
 					<Styles.TS>TS</Styles.TS>
@@ -18,7 +18,7 @@ const Competencies = () => {
 					<Styles.REDUX>REDUX</Styles.REDUX>
 				</Styles.Content>
 			</Styles.Competencies>
-		</Container>
+		// </Container>
 	);
 };
 

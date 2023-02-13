@@ -5,9 +5,9 @@ export const Competencies = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 60%;
+	width: 100%;
 	height: 100%;
-	margin: 20px 0px;
+	margin: 8rem 0px;
 	border-radius: 10px;
 `;
 
@@ -16,20 +16,22 @@ export const Content = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
-	box-shadow: 0px 0px 10px lightgrey;
+	width: 70%;
+	/* box-shadow: 0px 0px 10px lightgrey; */
+	/* border: 1px solid red; */
 	border-radius: 10px;
 `;
 
-export const Title = styled.h1`
-	color: black;
+export const Title = styled.h2`
+	padding: 0px 0px 22px 0px;
+	color: var(--color-white);
 `;
 
 export const JS = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: lightgrey;
+	background-color: #f0db4f;
 	color: white;
 	width: 100%;
 	border-radius: 10px 10px 0px 0px;
@@ -48,7 +50,7 @@ export const HTML = styled.div`
 	align-items: center;
 	color: white;
 	width: 100%;
-	background-color: lightgrey;
+	background-color: #f06529;
 	height: 60px;
 	transition: all 300ms ease-in-out;
 
@@ -64,7 +66,7 @@ export const CSS = styled.div`
 	align-items: center;
 	color: white;
 	width: 100%;
-	background-color: lightgrey;
+	background-color: #3c99dc;
 	height: 60px;
 	transition: all 300ms ease-in-out;
 
@@ -80,7 +82,7 @@ export const TS = styled.div`
 	align-items: center;
 	color: white;
 	width: 100%;
-	background-color: lightgrey;
+	background-color: #007acc;
 	height: 60px;
 	transition: all 300ms ease-in-out;
 
@@ -96,7 +98,7 @@ export const REACT = styled.div`
 	align-items: center;
 	color: white;
 	width: 100%;
-	background-color: lightgrey;
+	background-color: #1c2c4c;
 	height: 60px;
 	transition: all 300ms ease-in-out;
 
@@ -112,7 +114,7 @@ export const REDUX = styled.div`
 	align-items: center;
 	color: white;
 	width: 100%;
-	background-color: lightgrey;
+	background-color: #764abc;
 	height: 60px;
 	transition: all 300ms ease-in-out;
 	border-radius: 0px 0px 10px 10px;
